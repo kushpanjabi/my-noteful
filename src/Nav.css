@@ -1,0 +1,69 @@
+nav {
+    grid-area: 2 / col1-start / first-line / -5;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.sideBar-itm {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sideBar-nav {
+    list-style: none;
+    margin-left: 0;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.sideBarNav-link {
+    font-size: 24px;
+}
+  
+.sideBarNav-link, .addFolder-button {
+    text-decoration: none;
+    color: white;
+}
+
+.sideBarNav-link:hover {
+    color: lightgray;
+}
+
+.addFolder-button {
+    background-color: white;
+    color: black;
+    padding: .5em 1.5em;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 18px;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.addFolder-button:hover {
+    background-color: lightgray;
+}
+
+.nav-addNote-btn {
+    background-color: lightgray;
+    color: black;
+    padding: .5em 1.5em;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 18px;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-addNote-btn:hover {
+    background-color: gray;
+}
+
+.sideBarNav-link.active {
+    background-color: gray;
+    padding: 10px 1.5em;
+    border-radius: 3px;
+}
